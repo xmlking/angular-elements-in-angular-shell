@@ -5,7 +5,7 @@ use multiple pre-build Angular `Web Components` in `Angular Shell` App.
  
 ### Build
 ```bash
-# build script using by ngx-build-plus via `configHook` in `angular.json` (one time only)
+# build script used by `ngx-build-plus` via `configHook` in `angular.json` (one time only)
 npm run tsc -- -p tools/tsconfig.tools.json
 # build micro-apps before building webapp
 ng build chat-app --prod
