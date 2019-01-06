@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges, ViewEncapsulation } from '@angular/core';
+import { StateService } from '@ngx-starter-kit/core';
 
 @Component({
   selector: 'wc-button',
@@ -15,7 +16,9 @@ export class ButtonComponent implements OnChanges {
 
   private numberOfClicks = 0;
 
-  constructor() { }
+  constructor(private stateService: StateService) {
+    stateService.ctx.name = 'ButtonComponent sumo'
+  }
 
   ngOnChanges(changes: SimpleChanges) {
     console.log(changes);
@@ -23,6 +26,8 @@ export class ButtonComponent implements OnChanges {
 
   handleClick(event) {
     this.numberOfClicks++;
+    this.stateService.ctx.age = this.stateService.ctx.age + 2;
+    console.log('in ButtonComponent WC', this.stateService.ctx);
     this.action.emit(this.numberOfClicks);
   }
 }

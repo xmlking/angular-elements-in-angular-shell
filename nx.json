@@ -35,6 +35,11 @@
     },
     "chat-app-e2e": {
       "tags": []
+    },
+    "core": {
+      "tags": [
+        "core-module"
+      ]
     }
   }
 }

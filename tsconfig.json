@@ -27,6 +27,9 @@
       ],
       "@ngx-starter-kit/chat-app": [
         "dist/apps/chat-app/main.js"
+      ],
+      "@ngx-starter-kit/core": [
+        "libs/core/src/index.ts"
       ]
     }
   },
