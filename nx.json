@@ -1,0 +1,40 @@
+{
+  "npmScope": "ngx-starter-kit",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "webapp": {
+      "tags": [
+        "app-module"
+      ]
+    },
+    "webapp-e2e": {
+      "tags": []
+    },
+    "home": {
+      "tags": [
+        "layout",
+        "entry-module"
+      ]
+    },
+    "dashboard": {
+      "tags": [
+        "layout",
+        "entry-module"
+      ]
+    },
+    "chat-app": {
+      "tags": [
+        "micro-app-module"
+      ]
+    },
+    "chat-app-e2e": {
+      "tags": []
+    }
+  }
+}
