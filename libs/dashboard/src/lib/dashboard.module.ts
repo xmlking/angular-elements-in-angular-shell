@@ -2,6 +2,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { OverviewComponent } from './containers/overview/overview.component';
+import '@ngx-starter-kit/chat-app';
 
 function loadScript(path: string) {
   const script = document.createElement('script');

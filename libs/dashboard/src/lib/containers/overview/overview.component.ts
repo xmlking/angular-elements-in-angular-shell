@@ -1,5 +1,4 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import '@ngx-starter-kit/chat-app';
 
 @Component({
   selector: 'ngx-overview',
