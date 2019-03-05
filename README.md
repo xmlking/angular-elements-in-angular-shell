@@ -1,5 +1,7 @@
 # Angular-Elements-in-Angular-Shell
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xmlking/angular-elements-in-angular-shell.svg)](https://greenkeeper.io/)
+
 Showcase how to build `Web Components` using `Angular Elements`, and <br>
 use multiple pre-build Angular `Web Components` in `Angular Shell` App.    
  
